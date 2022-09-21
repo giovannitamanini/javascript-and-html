@@ -1,0 +1,25 @@
+<meta charset="UTF-8">
+
+<script>
+
+function pulaLinha() {
+
+	document.write("<br>");
+	
+}
+
+function mostra(mensagem) {
+
+	document.write(mensagem);
+	pulaLinha();
+	
+}
+
+var idadeMediaDosPais = 28;
+var anoAtual = 2022;
+var geracoesDeBrasileiros = Math.round((anoAtual - 1500)/ idadeMediaDosPais);
+
+mostra("<h1>O número de Gerações de Brasileiros desde 1500!</h1>");
+mostra("<p>O número de gerações de brasileiros desde o descobrimento é de " + geracoesDeBrasileiros + "!!</p>");
+
+</script>

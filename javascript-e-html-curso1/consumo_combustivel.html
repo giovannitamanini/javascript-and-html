@@ -1,0 +1,16 @@
+<meta charset="UTF-8">
+
+<h3>Álcool ou Gasolina?</h3>
+
+<script>
+	var capacidadeTanque = 40;
+	var autonomiaGasolina = 480;
+	var autonomiaAlcool = 300;
+	
+	var consumoGasolina = Math.round(autonomiaGasolina / capacidadeTanque);
+	var consumoAlcool = Math.round(autonomiaAlcool / capacidadeTanque);
+	
+	document.write("O consumo de gasolina com o tanque cheio de " + capacidadeTanque + " litros é de " + consumoGasolina + " km/l.<br>");
+	document.write("O consumo de álcool com o tanque cheio de " + capacidadeTanque + " litros é de " + consumoAlcool + " km/l.");
+	
+</script>
